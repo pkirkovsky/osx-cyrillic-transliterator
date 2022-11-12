@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA9EEEB291F7189005A90EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA9EEE8291F7164005A90EE /* InfoPlist.strings */; };
 		4E03E4781889E80C0013490B /* RTTransliterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E03E4721889E80C0013490B /* RTTransliterator.m */; };
 		4E03E4791889E80C0013490B /* RTTranslitStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E03E4741889E80C0013490B /* RTTranslitStream.m */; };
 		4E03E47C1889E8110013490B /* RTTransliterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E03E4721889E80C0013490B /* RTTransliterator.m */; };
@@ -46,7 +47,6 @@
 		4EA123B0188C979900A89CD7 /* RTTranslitStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E03E4741889E80C0013490B /* RTTranslitStream.m */; };
 		4EA123B1188C979900A89CD7 /* RU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E03E48D1889EDE40013490B /* RU.plist */; };
 		4EA123B7188CADF700A89CD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA123B5188CADB900A89CD7 /* Images.xcassets */; };
-		4EBFBD5E1889EE0F0032D712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFBD5C1889EE0F0032D712 /* InfoPlist.strings */; };
 		4EBFBD5F1889EE160032D712 /* RU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E03E48D1889EDE40013490B /* RU.plist */; };
 		4EBFBD65188B2E000032D712 /* ZZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFBD64188B2E000032D712 /* ZZ.plist */; };
 /* End PBXBuildFile section */
@@ -75,7 +75,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0F71B5FF291F6BF800B5B6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Cyrillic Transliterator Input Method/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0FA9EEE9291F7164005A90EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E03E4711889E80C0013490B /* RTTransliterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTransliterator.h; sourceTree = "<group>"; };
 		4E03E4721889E80C0013490B /* RTTransliterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTransliterator.m; sourceTree = "<group>"; };
 		4E03E4731889E80C0013490B /* RTTranslitStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTranslitStream.h; sourceTree = "<group>"; };
@@ -189,16 +189,16 @@
 				4E39BB89188CAF4800225DE3 /* icon@2x.tiff */,
 				4EA123B5188CADB900A89CD7 /* Images.xcassets */,
 			);
-			path = Assets;
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		4E03E4671889E5830013490B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4EBFBD5C1889EE0F0032D712 /* InfoPlist.strings */,
+				0FA9EEE8291F7164005A90EE /* InfoPlist.strings */,
 				4E03E4891889EDD30013490B /* Cyrillic Transliterator-Info.plist */,
 			);
-			path = Resources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		4E03E4701889E80C0013490B /* Common */ = {
@@ -350,8 +350,7 @@
 				4E03E4671889E5830013490B /* Resources */,
 				4E03E4621889E55C0013490B /* Assets */,
 			);
-			name = "Cyrillic Transliterator Input Method";
-			path = "Russian Transliterator Input Method";
+			path = "Cyrillic Transliterator Input Method";
 			sourceTree = "<group>";
 		};
 		4EA1237B188C96C300A89CD7 /* Other Frameworks */ = {
@@ -548,10 +547,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EA123B7188CADF700A89CD7 /* Images.xcassets in Resources */,
-				4EBFBD5E1889EE0F0032D712 /* InfoPlist.strings in Resources */,
 				4E03E48E1889EDE40013490B /* RU.plist in Resources */,
 				4E39BB8B188CAF4800225DE3 /* icon@2x.tiff in Resources */,
 				4E39BB8A188CAF4800225DE3 /* icon.tiff in Resources */,
+				0FA9EEEB291F7189005A90EE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +642,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0FA9EEE8291F7164005A90EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA9EEE9291F7164005A90EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		4E5DA510188B79C7000073E5 /* Menu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -658,14 +665,6 @@
 				4EA1232C188BCDB900A89CD7 /* Base */,
 			);
 			name = Preferences.xib;
-			sourceTree = "<group>";
-		};
-		4EBFBD5C1889EE0F0032D712 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F71B5FF291F6BF800B5B6A2 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -771,7 +770,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
