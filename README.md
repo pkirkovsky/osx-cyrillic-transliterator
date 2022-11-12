@@ -25,7 +25,7 @@ I didn't bump the build target version, so it should still run on OS X versions 
 
 
 ## Installation and usage
-Just unzip and place the app into `~/Library/Input Methods` (or `/Library/Input Methods` for all users).
+Unzip the archive located in `/Release` and copy the app into `~/Library/Input Methods` (or `/Library/Input Methods` for all users).
 
 Note: this app is signed with my personal developer key. You will likely receive a warning when attempting to launch it (because I do not have an Apple Developer License). It can be launched manually from the Finder, and then moved into `~/Library/Input Methods/`.
 
