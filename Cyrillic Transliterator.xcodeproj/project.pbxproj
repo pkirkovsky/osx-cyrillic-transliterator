@@ -497,7 +497,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RM;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Alexei Baboulevitch";
 				TargetAttributes = {
 					4E68AF2B18870691006D4543 = {
@@ -715,6 +715,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "RapidTranslit Monitor/Resources/RapidTranslit Monitor-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexei-baboulevitch.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -728,6 +729,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RapidTranslit Monitor/RapidTranslit Monitor-Prefix.pch";
 				INFOPLIST_FILE = "RapidTranslit Monitor/Resources/RapidTranslit Monitor-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexei-baboulevitch.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -813,6 +815,7 @@
 				GCC_PREFIX_HEADER = "Cyrillic Transliterator Input Method/Cyrillic Transliterator-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cyrillic Transliterator Input Method/Resources/Cyrillic Transliterator-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexei-baboulevitch.inputmethod.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Cyrillic Transliterator Input Method";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -831,6 +834,7 @@
 				GCC_PREFIX_HEADER = "Cyrillic Transliterator Input Method/Cyrillic Transliterator-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cyrillic Transliterator Input Method/Resources/Cyrillic Transliterator-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexei-baboulevitch.inputmethod.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Cyrillic Transliterator Input Method";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -853,6 +857,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Common/Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexei-baboulevitch.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Cyrillic Transliterator Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -871,6 +876,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Common/Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Common/Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexei-baboulevitch.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Cyrillic Transliterator Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -889,6 +895,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Translit Service/Resources/Translit Service-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexei-baboulevitch.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = service;
 			};
@@ -902,6 +909,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Translit Service/Translit Service-Prefix.pch";
 				INFOPLIST_FILE = "Translit Service/Resources/Translit Service-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexei-baboulevitch.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = service;
 			};
