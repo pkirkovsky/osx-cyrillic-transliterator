@@ -75,6 +75,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F71B5FF291F6BF800B5B6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Cyrillic Transliterator Input Method/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4E03E4711889E80C0013490B /* RTTransliterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTransliterator.h; sourceTree = "<group>"; };
 		4E03E4721889E80C0013490B /* RTTransliterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTransliterator.m; sourceTree = "<group>"; };
 		4E03E4731889E80C0013490B /* RTTranslitStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTranslitStream.h; sourceTree = "<group>"; };
@@ -131,7 +132,6 @@
 		4EA123B5188CADB900A89CD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Cyrillic Transliterator Input Method/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		4EB01F1D188BADE20031FE09 /* UIElementUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElementUtilities.h; sourceTree = "<group>"; };
 		4EB01F1E188BADE20031FE09 /* UIElementUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementUtilities.m; sourceTree = "<group>"; };
-		4EBFBD5D1889EE0F0032D712 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = "Cyrillic Transliterator Input Method/English.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
 		4EBFBD64188B2E000032D712 /* ZZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZZ.plist; sourceTree = "<group>"; };
 		4EBFBD67188B33310032D712 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -500,6 +500,10 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Alexei Baboulevitch";
 				TargetAttributes = {
+					4E68AF2B18870691006D4543 = {
+						DevelopmentTeam = 48C8BSVLX5;
+						ProvisioningStyle = Automatic;
+					};
 					4E68AF4C18870691006D4543 = {
 						TestTargetID = 4E68AF2B18870691006D4543;
 					};
@@ -507,12 +511,11 @@
 			};
 			buildConfigurationList = 4E68AF2718870691006D4543 /* Build configuration list for PBXProject "Cyrillic Transliterator" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				English,
 			);
 			mainGroup = 4E68AF2318870691006D4543;
 			productRefGroup = 4E68AF2D18870691006D4543 /* Products */;
@@ -660,7 +663,7 @@
 		4EBFBD5C1889EE0F0032D712 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EBFBD5D1889EE0F0032D712 /* English */,
+				0F71B5FF291F6BF800B5B6A2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -802,11 +805,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48C8BSVLX5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cyrillic Transliterator Input Method/Cyrillic Transliterator-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cyrillic Transliterator Input Method/Resources/Cyrillic Transliterator-Info.plist";
 				PRODUCT_NAME = "Cyrillic Transliterator Input Method";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -815,11 +823,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48C8BSVLX5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cyrillic Transliterator Input Method/Cyrillic Transliterator-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cyrillic Transliterator Input Method/Resources/Cyrillic Transliterator-Info.plist";
 				PRODUCT_NAME = "Cyrillic Transliterator Input Method";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -904,6 +917,7 @@
 				4E3C251C188E1B5500C66952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E5DA527188B79C8000073E5 /* Build configuration list for PBXNativeTarget "RapidTranslit Monitor" */ = {
 			isa = XCConfigurationList;
